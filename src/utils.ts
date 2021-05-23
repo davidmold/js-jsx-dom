@@ -54,7 +54,6 @@ export function applyChildren(element: JSX.Element, children: ComponentChild[]) 
 
 export function isSvgTag(tag: string): boolean {
   return [
-    'a',
     'circle',
     'clipPath',
     'defs',

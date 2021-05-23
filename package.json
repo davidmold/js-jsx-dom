@@ -1,7 +1,7 @@
 {
-  "name": "dom-tsx",
-  "version": "1.0.0-beta.1",
-  "description": "A simple way to use tsx syntax to create native dom elements using document.createElement.",
+  "name": "js-jsx-dom",
+  "version": "1.0.0",
+  "description": "A simple way to use jsx to produce dom.",
   "keywords": [
     "TypeScript",
     "tsx",
@@ -13,7 +13,7 @@
     "url": "https://github.com/NewBuilding/dom-jsx.git"
   },
   "license": "MIT",
-  "author": "Perry Huang",
+  "author": "David Mold",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [

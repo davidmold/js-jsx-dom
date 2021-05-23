@@ -7,11 +7,12 @@ describe('Basic tests', () => {
   before(() => fakeDoc.reset());
 
   it('should return the element from document.createElement', () => {
-    const t = ((<div></div>) as any) as FakeNode;
+    const t = ((<a></a>) as any) as FakeNode;
     assert.equal(t, fakeDoc.nodes[0]);
     assert.isTrue(t.element);
-    t.element && assert.equal(t.tag, 'div');
+    t.element && assert.equal(t.tag, 'a');
   });
+
 
   it('should set all attributes correctly', () => {
     const t = ((<div checked={true} colSpan={1337} title="foo bar"></div>) as any) as FakeNode;
